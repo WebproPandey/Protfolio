@@ -1,0 +1,49 @@
+import React from "react";
+import { Link } from "react-router";
+
+const ProfileCart = () => {
+  return (
+    <div className="h-[95%]  w-[70%] bg-white  rounded-2xl flex  flex-col  justify-start items-center py-[2rem]  gap-4 relative overflow-hidden">
+      <div className="circle absolute h-[30vh] w-[30vh] rounded-full border-4 border-dashed border-[#D24306] top-[-20%] left-[-0%] z-[99]"></div>
+      <div className="userphoto rounded-2xl h-[60%] w-[70%] bg-gradient-to-br from-[#9F2201] to-[#D24306] relative z-[88]"></div>
+      <div className="name leading-8 flex flex-col items-center gap-1">
+        <h1 className="text-[36px] font-bold  poppins-bold tracking-tighter z-[88]">
+          Amit Pandey
+        </h1>
+      </div>
+      <div className="userpera  w-full   px-[1rem] h-[30%] flex flex-col justify-center items-center gap-4  relative">
+        <div className="circle absolute h-[30vh] w-[30vh] rounded-full border-4 border-dashed border-[#D24306] border-r-0  border-b-0  top-[-100%] right-[-30%]  rotate-30"></div>
+
+        <p className=" poppins-semibold  text-[#6a6b6e] text-[18px]  leading-5 text-center z-[88]">
+          " A Frontend Developer creating interactive, responsive, and visually
+          engaging web experiences with smooth animations and performance
+          optimization."
+        </p>
+      </div>
+      <div className="socia-media h-[7vh] w-full flex justify-center items-center gap-6 z-[88] ">
+        <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
+          <Link to="/">
+            <i className="ri-instagram-line text-[#D24306] text-2xl"></i>
+          </Link>
+        </div>
+        <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
+          <Link to="/">
+            <i className="ri-github-line text-[#D24306] text-2xl"></i>
+          </Link>
+        </div>
+        <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
+          <Link to="/">
+            <i className="ri-linkedin-box-line text-[#D24306] text-2xl"></i>
+          </Link>
+        </div>
+        <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
+          <Link to="/">
+            <i className="ri-mail-line text-[#D24306] text-2xl"></i>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProfileCart;
