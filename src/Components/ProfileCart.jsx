@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const ProfileCart = () => {
   return (
-    <div className="h-[95%]  w-[70%] bg-white  rounded-2xl flex  flex-col  justify-start items-center py-[2rem]  gap-4 relative overflow-hidden">
+    <div className="h-[95%] w-[90%]  md:w-[70%] bg-white  rounded-2xl flex  flex-col  justify-start items-center py-[2rem]  gap-4 relative overflow-hidden">
       <div className="circle absolute h-[30vh] w-[30vh] rounded-full border-4 border-dashed border-[#D24306] top-[-20%] left-[-0%] z-[99]"></div>
       <div className="userphoto rounded-2xl h-[60%] w-[70%] bg-gradient-to-br from-[#9F2201] to-[#D24306] relative z-[88]"></div>
       <div className="name leading-8 flex flex-col items-center gap-1">
@@ -38,7 +38,7 @@ const ProfileCart = () => {
         </div>
         <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
           <Link to="/">
-            <i className="ri-mail-line text-[#D24306] text-2xl"></i>
+            <i className="ri-file-list-line text-[#D24306] text-2xl"></i>
           </Link>
         </div>
       </div>

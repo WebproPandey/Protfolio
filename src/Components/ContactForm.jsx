@@ -17,10 +17,10 @@ const ContactForm = () => {
     e.preventDefault();
     emailjs
       .send(
-        "service_xxxxxx", // Replace with your EmailJS service ID
-        "template_xxxxxx", // Replace with your EmailJS template ID
+        "portfolio1234", 
+        "template_aae0xfe", 
         formData,
-        "user_xxxxxx" // Replace with your EmailJS user ID
+        "T6AR1MHcyeEYlO0YD"
       )
       .then((response) => {
         console.log("Email sent successfully:", response);

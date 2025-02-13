@@ -6,7 +6,7 @@ import 'remixicon/fonts/remixicon.css'
 
 const App = () => {
   return (
-    <div className='bg-[#151312] relative'>
+    <div className='bg-[#151312] relative w-[100%]'>
       <Navbar/>
       <AppRoute/>
       <Footer/>
