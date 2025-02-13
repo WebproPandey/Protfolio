@@ -1,13 +1,36 @@
-import React from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import {ScrollTrigger} from 'gsap/ScrollTrigger'
+import React, { useRef } from "react";
+gsap.registerPlugin(ScrollTrigger);
+
 
 const SecondSection = () => {
+  const heading1 =  useRef()
+  const heading2 =  useRef()
+  const SecondSection = useRef()
+  
+  useGSAP(() => {
+    const tl = gsap.timeline({
+      defaults: { ease: "power1.inOut" },
+      scrollTrigger: {
+        trigger: SecondSection.current, 
+        start: "top 80%", 
+        end: "top 70%",
+      },
+    });
+    tl.from(heading1.current, { duration: 1, y: -50, opacity: 0 });
+    tl.from(heading2.current, { duration: 1, y: -50, opacity: 0 });
+
+  });
+
   return (
-    <div className=" w-full  py-[3rem] flex flex-col gap-5 ">
+    <div ref={SecondSection} className="SecondSection w-full  py-[3rem] flex flex-col gap-5 ">
       <div className="Heading leading-[52px] md:leading-[94px]">
-        <h2 className="text-[48px] md:text-[94px] poppins-bold text-center md:text-start  uppercase text-white ">
+        <h2 ref={heading1} className="text-[48px] md:text-[94px] poppins-bold text-center md:text-start  uppercase text-white ">
           Recent
         </h2>
-        <h2 className="text-[48px] md:text-[94px] poppins-bold text-center md:text-start uppercase text-[#b6b4bd33] ">
+        <h2 ref={heading2} className="text-[48px] md:text-[94px] poppins-bold text-center md:text-start uppercase text-[#b6b4bd33] ">
           Project
         </h2>
       </div>

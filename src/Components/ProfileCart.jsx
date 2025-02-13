@@ -1,9 +1,17 @@
-import React from "react";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import React, { useRef } from "react";
 import { Link } from "react-router";
 
 const ProfileCart = () => {
+  const cart =  useRef()
+  useGSAP(() =>{
+    const tl = gsap.timeline({ defaults: { ease: "power1.inOut" } });
+    tl.from(cart.current, { duration: 1, y: -50, opacity: 0 }, 0)
+  })
+
   return (
-    <div className="h-[95%] w-[90%]  md:w-[70%] bg-white  rounded-2xl flex  flex-col  justify-start items-center py-[2rem]  gap-4 relative overflow-hidden">
+    <div ref={cart} className="h-[95%] w-[90%]  md:w-[70%] bg-white  rounded-2xl flex  flex-col  justify-start items-center py-[2rem]  gap-4 relative overflow-hidden">
       <div className="circle absolute h-[30vh] w-[30vh] rounded-full border-4 border-dashed border-[#D24306] top-[-20%] left-[-0%] z-[99]"></div>
       <div className="userphoto rounded-2xl h-[60%] w-[70%] bg-gradient-to-br from-[#9F2201] to-[#D24306] relative z-[88]"></div>
       <div className="name leading-8 flex flex-col items-center gap-1">
