@@ -1,13 +1,34 @@
-import React from 'react'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
+import React, { useRef } from 'react'
+import {ScrollTrigger} from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger);
 
 const FivthSecton = () => {
+  const heading1 =  useRef()
+  const heading2 =  useRef()
+  const FivthSecton = useRef()
+  
+  useGSAP(() => {
+    const tl = gsap.timeline({
+      defaults: { ease: "power1.inOut" },
+      scrollTrigger: {
+        trigger: FivthSecton.current, 
+        start: "top 80%", 
+        end: "top 70%",
+      },
+    });
+    tl.from(heading1.current, { duration: 1, y: -50, opacity: 0 });
+    tl.from(heading2.current, { duration: 1, y: -50, opacity: 0 });
+
+  });
   return  (
-    <div className='w-full  py-[3rem] flex flex-col gap-5 '>
+    <div ref={FivthSecton} className='w-full  py-[3rem] flex flex-col gap-5 '>
          <div className="Heading leading-[52px] md:leading-[94px]">
-        <h2 className="text-[48px] md:text-[94px] md:text-start  text-center poppins-bold uppercase text-white ">
+        <h2 ref={heading1} className="text-[48px] md:text-[94px] md:text-start  text-center poppins-bold uppercase text-white ">
           design
         </h2>
-        <h2 className="text-[48px] md:text-[94px] md:text-start  text-center poppins-bold uppercase text-[#b6b4bd33] ">
+        <h2 ref={heading2} className="text-[48px] md:text-[94px] md:text-start  text-center poppins-bold uppercase text-[#b6b4bd33] ">
          thoughts
         </h2>
       </div>

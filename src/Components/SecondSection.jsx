@@ -16,7 +16,7 @@ const SecondSection = () => {
       scrollTrigger: {
         trigger: SecondSection.current, 
         start: "top 80%", 
-        end: "top 70%",
+        end: "top 75%",
       },
     });
     tl.from(heading1.current, { duration: 1, y: -50, opacity: 0 });
