@@ -34,22 +34,22 @@ const ProfileCart = () => {
       </div>
       <div className="socia-media h-[7vh] w-full flex justify-center items-center gap-6 z-[88] ">
         <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
-          <Link to="/">
+          <Link to="https://www.instagram.com/invites/contact/?igsh=1ukkk6q78lbbw&utm_content=qumz020">
             <i className="ri-instagram-line text-[#D24306] text-2xl"></i>
           </Link>
         </div>
         <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
-          <Link to="/">
+          <Link to="https://github.com/WebproPandey">
             <i className="ri-github-line text-[#D24306] text-2xl"></i>
           </Link>
         </div>
         <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
-          <Link to="/">
+          <Link to="https://www.linkedin.com/in/amit-pandey-5a687327a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <i className="ri-linkedin-box-line text-[#D24306] text-2xl"></i>
           </Link>
         </div>
         <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
-          <Link to="/">
+          <Link to="https://www.canva.com/design/DAGNj7zey-k/hOxEHzfEHILuhTAWfSxZbA/view?utm_content=DAGNj7zey-k&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5ea106b48a">
             <i className="ri-file-list-line text-[#D24306] text-2xl"></i>
           </Link>
         </div>

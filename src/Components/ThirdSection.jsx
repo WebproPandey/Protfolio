@@ -36,19 +36,18 @@ const ThirdSection = () => {
       </div>
       <div className="Experienceblogs w-full md:w-[80%] flex flex-col gap-5 ">
   {/* Experience 1 - Internship */}
-  <div className="Experienceblog relative  md:h-[30vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-start items-start gap-2">
+  <div className="Experienceblog relative  md:min-h-[30vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-start items-start gap-2">
     <div className="Title w-full md:w-[80%] poppins-extrasemibold text-[18px] md:text-[26px] capitalize text-white">
-      Frontend Developer Intern
+      Frontend Developer at  Mercy Dev
     </div>
     <div className="projectinfo w-full md:w-[80%]">
       <p className="poppins-thik text-[14px] md:text-[16px] leading-[20px] md:leading-[22px] text-[#998f8f]">
-        Worked with a team of 5 developers to build a **dynamic website with a custom CMS.** 
-        Utilized **React & Styled Components** for the frontend, achieving a **95% success rate** in the internship.
+      Mercy Dev is a startup focused on building high-quality, innovative websites. As a frontend developer, I contribute to creating responsive and interactive web applications, ensuring smooth user experiences with modern technologies like React, JavaScript, and GSAP. I collaborate closely with designers and backend developers to bring ideas to life, optimizing performance and accessibility for a seamless web experience.
       </p>
     </div>
     <div className="date">
       <p className="poppins-semibold text-[14px] md:text-[16px] text-[#998f8f]">
-        August 2024 - Present
+        January 2024 - Present
       </p>
     </div>
     <div className="icons absolute right-3 top-3 md:top-6 h-[7vh]  md:h-[10vh] w-[8vh] flex justify-center items-center">
@@ -57,20 +56,18 @@ const ThirdSection = () => {
   </div>
 
   {/* Experience 2 - Freelance Work */}
-  <div className="Experienceblog relative  md:h-[30vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-start items-start gap-2">
+  <div className="Experienceblog relative  md:min-h-[30vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-start items-start gap-2">
     <div className="Title w-full md:w-[80%] poppins-extrasemibold text-[18px] md:text-[26px] capitalize text-white">
-      Freelance  Developer
+      Freelancing Project: Website Optimization & Animation
     </div>
     <div className="projectinfo w-full md:w-[80%]">
       <p className="poppins-thik text-[14px] md:text-[16px] leading-[20px] md:leading-[22px] text-[#998f8f]">
-        Built **5+ interactive websites** for startups and brands, improving UI/UX 
-        using **GSAP animations, React, and Tailwind CSS.** 
-        Delivered **fully responsive and high-performance websites**.
+      I worked on a freelancing project for Shivangi Mahajan, where I enhanced the website by making it fully responsive, optimizing its performance, and adding smooth animations for better user experience. This project helped me refine my skills in front-end development, animation, and optimization techniques.
       </p>
     </div>
     <div className="date">
       <p className="poppins-semibold text-[14px] md:text-[16px] text-[#998f8f]">
-        March 2024 - Present
+        March 2024 
       </p>
     </div>
     <div className="icons absolute right-3 top-3 md:top-6 h-[7vh]  md:h-[10vh] w-[8vh] flex justify-center items-center">
@@ -79,19 +76,18 @@ const ThirdSection = () => {
   </div>
 
   {/* Experience 3 - Open Source Contributions */}
-  <div className="Experienceblog relative  md:h-[30vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-start items-start gap-2">
+  <div className="Experienceblog relative  md:min-h-[30vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-start items-start gap-2">
     <div className="Title w-full md:w-[80%] poppins-extrasemibold text-[18px] md:text-[26px] capitalize text-white">
-      Open Source Contributor
+      Re-Image Hackathon – Website Redesign & Animation   
     </div>
     <div className="projectinfo w-full md:w-[80%]">
       <p className="poppins-thik text-[14px] md:text-[16px] leading-[20px] md:leading-[22px] text-[#998f8f]">
-        Contributed to **GitHub projects**, fixing UI bugs, optimizing React 
-        components, and improving accessibility. Worked on **GSAP & Tailwind-based animations**.
+        I participated in the Re-Image Hackathon, where our team reimagined and rebuilt a website with a fresh modern design, improved user experience, and smooth animations. We successfully advanced to the second stage of the competition.
       </p>
     </div>
     <div className="date">
       <p className="poppins-semibold text-[14px] md:text-[16px] text-[#998f8f]">
-        January 2024 - Present
+        05 - sept 2024  
       </p>
     </div>
     <div className="icons absolute right-3 top-3 md:top-6 h-[7vh]  md:h-[10vh] w-[8vh] flex justify-center items-center">

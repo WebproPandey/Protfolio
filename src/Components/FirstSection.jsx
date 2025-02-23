@@ -90,7 +90,7 @@ const FirstSection = () => {
               <i className="ri-layout-5-line text-5xl text-black"></i>
             </div>
             <div className="texts text-black poppins-semibold text-[26px] leading-[26px]">           
-              FRAMER, FIGMA, WORDPRESS, REACTJS
+              GSAP, CANVAS, FRAMER , REACTJS
             </div>
             <div className="w-full flex justify-end">
               <div className="vists border-black border rounded-md w-[5vh] h-[5vh] flex justify-center gap-4 items-center relative group overflow-hidden hover:bg-black ">

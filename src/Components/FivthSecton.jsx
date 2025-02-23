@@ -47,7 +47,7 @@ const FivthSecton = () => {
         Nov 8 , 2024
       </p>
       <p className="poppins-semibold text-[14px] md:text-[16px] text-[#998f8f]">
-        6min  read
+       
       </p>
     </div>
     <div className="icons absolute right-3 top-3 md:top-6 h-[7vh]  md:h-[10vh] w-[8vh] flex justify-center items-center">
@@ -70,7 +70,7 @@ const FivthSecton = () => {
         Jan 21,2024 
       </p>
       <p className="poppins-semibold text-[14px] md:text-[16px] text-[#998f8f]">
-        6min , read
+        
       </p>
     </div>
     <div className="icons absolute right-3 top-3 md:top-6 h-[7vh]  md:h-[10vh]  w-[8vh] flex justify-center items-center">
@@ -93,7 +93,7 @@ const FivthSecton = () => {
         Mar28, 2024
       </p>
       <p className="poppins-semibold text-[14px] md:text-[16px] text-[#998f8f]">
-        6min , read
+        
        </p>
     </div>
     <div className="icons absolute right-3 top-3 md:top-6 h-[7vh]  md:h-[10vh] w-[8vh] flex justify-center items-center">
