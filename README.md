@@ -1,5 +1,9 @@
 # Portfolio Website
 
+## 🌐 Live Demo
+
+Check out the live version of my portfolio here: **[My Portfolio](https://amitpande-portfolio.netlify.app/)**
+
 ## 🚀 Project Overview
 
 This is a **modern and responsive** portfolio website built using **React.js** and **Tailwind CSS**. It showcases my skills, projects, and experience in web development.
@@ -16,11 +20,6 @@ This is a **modern and responsive** portfolio website built using **React.js** a
 - **Frontend**: React.js, Tailwind CSS
 - **Animations**: GSAP
 - **Deployment**: Netlify
-
-## 📸 Screenshots
-
-![Portfolio Screenshot](protfoliosc.png)
-
 ## 🔧 Installation & Setup
 
 To run this project locally, follow these steps:
@@ -41,8 +40,7 @@ npm run dev
 
 ## 🚀 Deployment
 
-This project is deployed on **[Netlify](hhttps://amitpande-portfolio.netlify.app/) 
-To deploy it yourself:
+This project is deployed on **[Netlify](https://netlify.com/)** (or vercel). To deploy it yourself:
 
 1. Push your code to a GitHub repository.
 2. Connect the repo to Vercel/Netlify.
@@ -54,7 +52,7 @@ If you have any questions or want to collaborate, feel free to reach out:
 
 - **Email**: [amitpande184@gmail.com](mailto:amitpande184@gmail.com)
 - **LinkedIn**: [Amit Pandey](https://www.linkedin.com/in/amit-pandey-5a687327a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-- **GitHub**: [GitHub](https://github.com/WebproPandey)
+- **Twitter**: [GitHub](https://github.com/WebproPandey)
 
 ## ⭐ Show Some Love
 
