@@ -49,7 +49,7 @@ const ProfileCart = () => {
           </Link>
         </div>
         <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
-          <Link to="https://drive.google.com/file/d/1ViHAjg0OMMe4VcWuddwIHbgs-o79eVkm/view">
+          <Link to="https://drive.google.com/file/d/1co8C9jEfgsea14ZXbx1_-q3Kr_d3oLKi/view?usp=sharing">
             <i className="ri-file-list-line text-[#D24306] text-2xl"></i>
           </Link>
         </div>

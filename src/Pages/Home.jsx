@@ -8,7 +8,7 @@ import SixthSection from "../Components/SixthSection";
 import ProfileCart from "../Components/ProfileCart";
 import image1 from "../assets/image1.png";
 import image2 from "../assets/image2.png";
-import image3 from "../assets/image4.png";
+import image4 from "../assets/Image4.png";
 import Reactjs from '../assets/Reactimage.jpg'
 import Tailwindcss from '../assets/TailwindcssImage.jpg'
 import ChatGpt  from '../assets/ChatGptimage.jpg'
@@ -22,7 +22,7 @@ import  gsap from '../assets/Gsap.jpg'
 const homeProjects = [
   { title: "Vidyamintra", description: "Learning Management System", link: "https://vidyamitraa.netlify.app", image: image1 },
   { title: "Trionn Digital-Agency", description: "Animated Website", link: "https://trionns.netlify.app/", image: image2 },
-  { title: "MarutiHouse Design", description: "Production stage", link: "https://marutihousedesign.netlify.app/", image: image3 },
+  { title: "MarutiHouse Design", description: "Production stage", link: "https://marutihousedesign.netlify.app/", image: image4 },
 
 ];
 const ExprienceArray = [
