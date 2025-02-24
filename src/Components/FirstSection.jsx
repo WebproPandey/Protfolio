@@ -20,10 +20,10 @@ const FirstSection = () => {
     const tl = gsap.timeline({ defaults: { ease: "power1.inOut" } });
     tl.from(heading1.current, { duration: 1, y: -50, opacity: 0 }, 0)
     tl.from(heading2.current, { duration: 1, y: -50, opacity: 0 }, 0)
-    tl.from(pera.current, { duration: 1, y: -50, opacity: 0 }, 0)
-    tl.from(num1.current, { duration: 1, y: -50, opacity: 0 }, 0)
-    tl.from(num2.current, { duration: 1, y: -50, opacity: 0 }, 0)
-    tl.from(num3.current, { duration: 1, y: -50, opacity: 0 }, 0)
+    tl.from(pera.current, { duration: 1, y: -50, opacity: 0 }, 0.1)
+    tl.from(num1.current, { duration: 1, y: -50, opacity: 0 }, 0.1)
+    tl.from(num2.current, { duration: 1, y: -50, opacity: 0 }, 0.2)
+    tl.from(num3.current, { duration: 1, y: -50, opacity: 0 }, 0.2)
     tl.from(showcart1.current, { duration: 1, y: 50, opacity: 0 }, 1)
     tl.from(showcart2.current, { duration: 1, y: 50, opacity: 0 }, 1)
   })
@@ -66,8 +66,8 @@ const FirstSection = () => {
       </div>
       <div className="showcasecart w-full md:w-[80%] pt-[3rem] flex md:flex-row flex-col gap-4  ">
         <div ref={showcart1} className="leftcart  w-full  md:w-[40%]  h-[40vh]  bg-[#F46C38] rounded-2xl overflow-hidden relative  ">
-          <img src={line} alt="" srcset="" />
-          <img src={line} alt="" srcset="" />
+          <img src={line} alt=""  />
+          <img src={line} alt=""  />
           <div className="h-full  w-full  absolute  top-0 left-0 flex flex-col justify-between px-4  py-5 gap-3">
             <div>
               <i className="ri-stack-line  text-5xl text-white"></i>
@@ -84,13 +84,13 @@ const FirstSection = () => {
           </div>
         </div>
         <div  ref={showcart2}  className="rightcart w-full md:w-[60%] h-[40vh] bg-[#C5FF41] rounded-2xl overflow-hidden relative ">
-            <img src={zig} alt="" srcset="" />
+            <img src={zig} alt=""  />
             <div className="h-full  w-full  absolute  top-0 left-0 flex flex-col justify-between  px-4 py-5 gap-3">
             <div>
               <i className="ri-layout-5-line text-5xl text-black"></i>
             </div>
             <div className="texts text-black poppins-semibold text-[26px] leading-[26px]">           
-              GSAP, CANVAS, FRAMER , REACTJS
+              GSAP, CANVAS, FRAmM , REACTJS
             </div>
             <div className="w-full flex justify-end">
               <div className="vists border-black border rounded-md w-[5vh] h-[5vh] flex justify-center gap-4 items-center relative group overflow-hidden hover:bg-black ">

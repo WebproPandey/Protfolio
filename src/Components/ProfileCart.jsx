@@ -49,7 +49,7 @@ const ProfileCart = () => {
           </Link>
         </div>
         <div className="hover:bg-blue-100 p-1 rounded-md transition-all duration-300 ease-in-out">
-          <Link to="https://www.canva.com/design/DAGNj7zey-k/hOxEHzfEHILuhTAWfSxZbA/view?utm_content=DAGNj7zey-k&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5ea106b48a">
+          <Link to="https://drive.google.com/file/d/1ViHAjg0OMMe4VcWuddwIHbgs-o79eVkm/view">
             <i className="ri-file-list-line text-[#D24306] text-2xl"></i>
           </Link>
         </div>

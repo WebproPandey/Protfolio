@@ -51,7 +51,10 @@ const Navbar = () => {
             ref={(el) => (iconsRef.current[index] = el)}
             className="relative group cursor-pointer  px-2 py-1"
           >
-            <Link to={item.link}>
+            <Link to={item.link}
+             
+            >
+            
               <i className={`${item.icon} text-white text-2xl font-light`}></i>
             </Link>
             <h1 className="text-white opacity-0 absolute left-1/2 -translate-x-1/2">

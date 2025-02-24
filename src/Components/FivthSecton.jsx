@@ -7,20 +7,51 @@ gsap.registerPlugin(ScrollTrigger);
 const FivthSecton = () => {
   const heading1 =  useRef()
   const heading2 =  useRef()
+  const Cart1 =  useRef()
+  const Cart2 =  useRef()
+  const Cart3 =  useRef()
   const FivthSecton = useRef()
   
   useGSAP(() => {
     const tl = gsap.timeline({
       defaults: { ease: "power1.inOut" },
       scrollTrigger: {
-        trigger: FivthSecton.current, 
-        start: "top 80%", 
-        end: "top 70%",
+        trigger: FivthSecton.current,
+        start: "top 80%",
+        end: "20% 60%",
+        scrub: 1,
       },
     });
-    tl.from(heading1.current, { duration: 1, y: -50, opacity: 0 });
-    tl.from(heading2.current, { duration: 1, y: -50, opacity: 0 });
-
+  
+    tl.fromTo(
+      heading1.current, 
+      { y: -50, opacity: 0 }, 
+      { y: 0, opacity: 1, duration: 1.5 }
+    );
+  
+    tl.fromTo(
+      heading2.current, 
+      { y: -50, opacity: 0 }, 
+      { y: 0, opacity: 1, duration: 1.5 }
+    );
+  
+    tl.fromTo(
+      Cart1.current, 
+      { y: 50, opacity: 0 }, 
+      { y: 0, opacity: 1, duration: 1 }
+    );
+  
+    tl.fromTo(
+      Cart2.current, 
+      { y: 50, opacity: 0 }, 
+      { y: 0, opacity: 1, duration: 1 }
+    );
+  
+    tl.fromTo(
+      Cart3.current, 
+      { y: 70, opacity: 0 }, 
+      { y: 0, opacity: 1, duration: 1 }
+    );
   });
   return  (
     <div ref={FivthSecton} className='w-full  py-[3rem] flex flex-col gap-5 '>
@@ -32,8 +63,9 @@ const FivthSecton = () => {
          thoughts
         </h2>
       </div>
-      <div className="Thoughtsblogs  w-full md:w-[80%] flex flex-col gap-5 mt-3">
-  <div className="Thought relative min-h-[40vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-xl md:rounded-2xl overflow-hidden flex flex-col justify-evenly items-start gap-2">
+    <div className="Thoughtsblogs  w-full md:w-[80%] flex flex-col gap-5 mt-3">
+
+  <div ref={Cart1} className="Thought relative min-h-[40vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-xl md:rounded-2xl overflow-hidden flex flex-col justify-evenly items-start gap-2">
     <div className="Title  w-full md:w-[80%] poppins-extrasemibold text-[20px] md:text-[26px] capitalize text-white  leading-5 md:leading-7">
        Starting and Growing a career in Web Development
     </div>
@@ -56,7 +88,7 @@ const FivthSecton = () => {
   </div>
 
   {/* Experience 2 - Freelance Work */}
-  <div className="Thought relative min-h-[40vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-evenly items-start gap-2">
+  <div ref={Cart2} className="Thought relative min-h-[40vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-evenly items-start gap-2">
     <div className="Title  w-[90%] md:w-[80%] poppins-extrasemibold text-[20px] md:text-[26px] capitalize text-white leading-5 md:leading-7">
       Creating a Landing Page  That  Performs Great
     </div>
@@ -79,7 +111,7 @@ const FivthSecton = () => {
   </div>
 
   {/* Experience 3 - Open Source Contributions */}
-  <div className="Thought relative min-h-[40vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-evenly items-start gap-2">
+  <div ref={Cart3} className="Thought relative min-h-[40vh] p-4 group hover:bg-[#1C1A19] transition-all duration-500 ease-in-out rounded-2xl overflow-hidden flex flex-col justify-evenly items-start gap-2">
     <div className="Title  w-[90%]  md:w-[80%] poppins-extrasemibold text-[20px] md:text-[26px] capitalize text-white leading-5 md:leading-7">
       How can Designers  Prepare for the Future?
     </div>
