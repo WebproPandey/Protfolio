@@ -8,7 +8,7 @@ import SixthSection from "../Components/SixthSection";
 import ProfileCart from "../Components/ProfileCart";
 import image1 from "../assets/image1.png";
 import image2 from "../assets/image2.png";
-import image4 from "../assets/Image4.png";
+import image4 from "../assets/image4.png";
 import Reactjs from '../assets/Reactimage.jpg'
 import Tailwindcss from '../assets/TailwindcssImage.jpg'
 import ChatGpt  from '../assets/ChatGptimage.jpg'
